@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2501FDED1B4BBB9E002BC467 /* NSString+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2501FDEA1B4BBB9E002BC467 /* NSString+Addition.m */; };
+		2501FDEE1B4BBB9E002BC467 /* NSTextView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2501FDEC1B4BBB9E002BC467 /* NSTextView+Addition.m */; };
+		2501FE081B4BBDE2002BC467 /* VVKeyboardEventSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 2501FE071B4BBDE2002BC467 /* VVKeyboardEventSender.m */; };
+		2510D0C61B43D6B600CF1DC4 /* QHRDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 2510D0C51B43D6B600CF1DC4 /* QHRDebug.m */; };
+		2573443A1B4680EE00C3ADEF /* HRDebugListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257344391B4680EE00C3ADEF /* HRDebugListController.m */; };
+		2573443D1B46817100C3ADEF /* HRDeBugCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2573443C1B46817100C3ADEF /* HRDeBugCellView.m */; };
+		257344401B46834800C3ADEF /* HRDebugModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2573443F1B46834800C3ADEF /* HRDebugModel.m */; };
+		257344431B46837600C3ADEF /* HRDebugItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 257344421B46837600C3ADEF /* HRDebugItem.m */; };
+		257344451B4687FE00C3ADEF /* find.sh in Resources */ = {isa = PBXBuildFile; fileRef = 257344441B4687FE00C3ADEF /* find.sh */; };
+		257344471B468E8300C3ADEF /* HRDebugListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 257344461B468E8300C3ADEF /* HRDebugListController.xib */; };
+		2593AF171B4502C40054D5DF /* NSTextView+menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2593AF161B4502C40054D5DF /* NSTextView+menu.m */; };
+		25DFC2A21B44EBC1005B695F /* DVTFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25DFC29E1B44EBC1005B695F /* DVTFoundation.framework */; };
+		25DFC2A31B44EBC1005B695F /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25DFC29F1B44EBC1005B695F /* DVTKit.framework */; };
+		25DFC2A41B44EBC1005B695F /* IDEFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25DFC2A01B44EBC1005B695F /* IDEFoundation.framework */; };
+		25DFC2A51B44EBC1005B695F /* IDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25DFC2A11B44EBC1005B695F /* IDEKit.framework */; };
+		25F8B1941B44E5780056776F /* SharedXcode.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F8B1921B44E5780056776F /* SharedXcode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2501FDE91B4BBB9E002BC467 /* NSString+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Addition.h"; sourceTree = "<group>"; };
+		2501FDEA1B4BBB9E002BC467 /* NSString+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Addition.m"; sourceTree = "<group>"; };
+		2501FDEB1B4BBB9E002BC467 /* NSTextView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTextView+Addition.h"; sourceTree = "<group>"; };
+		2501FDEC1B4BBB9E002BC467 /* NSTextView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTextView+Addition.m"; sourceTree = "<group>"; };
+		2501FE061B4BBDE2002BC467 /* VVKeyboardEventSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVKeyboardEventSender.h; sourceTree = "<group>"; };
+		2501FE071B4BBDE2002BC467 /* VVKeyboardEventSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVKeyboardEventSender.m; sourceTree = "<group>"; };
+		2510D0BA1B43D31200CF1DC4 /* QHRDebug.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QHRDebug.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		2510D0BE1B43D31200CF1DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2510D0C41B43D6B600CF1DC4 /* QHRDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHRDebug.h; sourceTree = "<group>"; };
+		2510D0C51B43D6B600CF1DC4 /* QHRDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHRDebug.m; sourceTree = "<group>"; };
+		257344381B4680EE00C3ADEF /* HRDebugListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRDebugListController.h; sourceTree = "<group>"; };
+		257344391B4680EE00C3ADEF /* HRDebugListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRDebugListController.m; sourceTree = "<group>"; };
+		2573443B1B46817100C3ADEF /* HRDeBugCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRDeBugCellView.h; sourceTree = "<group>"; };
+		2573443C1B46817100C3ADEF /* HRDeBugCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRDeBugCellView.m; sourceTree = "<group>"; };
+		2573443E1B46834800C3ADEF /* HRDebugModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRDebugModel.h; sourceTree = "<group>"; };
+		2573443F1B46834800C3ADEF /* HRDebugModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRDebugModel.m; sourceTree = "<group>"; };
+		257344411B46837600C3ADEF /* HRDebugItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRDebugItem.h; sourceTree = "<group>"; };
+		257344421B46837600C3ADEF /* HRDebugItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRDebugItem.m; sourceTree = "<group>"; };
+		257344441B4687FE00C3ADEF /* find.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = find.sh; sourceTree = "<group>"; };
+		257344461B468E8300C3ADEF /* HRDebugListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HRDebugListController.xib; sourceTree = "<group>"; };
+		2593AF151B4502C40054D5DF /* NSTextView+menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTextView+menu.h"; sourceTree = "<group>"; };
+		2593AF161B4502C40054D5DF /* NSTextView+menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTextView+menu.m"; sourceTree = "<group>"; };
+		25DFC29E1B44EBC1005B695F /* DVTFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTFoundation.framework; path = ../../../pluginframeWork/DVTFoundation.framework; sourceTree = "<group>"; };
+		25DFC29F1B44EBC1005B695F /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTKit.framework; path = ../../../pluginframeWork/DVTKit.framework; sourceTree = "<group>"; };
+		25DFC2A01B44EBC1005B695F /* IDEFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEFoundation.framework; path = ../../../pluginframeWork/IDEFoundation.framework; sourceTree = "<group>"; };
+		25DFC2A11B44EBC1005B695F /* IDEKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEKit.framework; path = ../../../pluginframeWork/IDEKit.framework; sourceTree = "<group>"; };
+		25F8B1911B44E5780056776F /* SharedXcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedXcode.h; sourceTree = "<group>"; };
+		25F8B1921B44E5780056776F /* SharedXcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedXcode.m; sourceTree = "<group>"; };
+		25F8B1931B44E5780056776F /* xprivates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xprivates.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2510D0B71B43D31200CF1DC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DFC2A21B44EBC1005B695F /* DVTFoundation.framework in Frameworks */,
+				25DFC2A31B44EBC1005B695F /* DVTKit.framework in Frameworks */,
+				25DFC2A41B44EBC1005B695F /* IDEFoundation.framework in Frameworks */,
+				25DFC2A51B44EBC1005B695F /* IDEKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2501FDE81B4BBB9E002BC467 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2501FDE91B4BBB9E002BC467 /* NSString+Addition.h */,
+				2501FDEA1B4BBB9E002BC467 /* NSString+Addition.m */,
+				2501FDEB1B4BBB9E002BC467 /* NSTextView+Addition.h */,
+				2501FDEC1B4BBB9E002BC467 /* NSTextView+Addition.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2501FE051B4BBDE2002BC467 /* KeyboardHelper */ = {
+			isa = PBXGroup;
+			children = (
+				2501FE061B4BBDE2002BC467 /* VVKeyboardEventSender.h */,
+				2501FE071B4BBDE2002BC467 /* VVKeyboardEventSender.m */,
+			);
+			path = KeyboardHelper;
+			sourceTree = "<group>";
+		};
+		2510D0B11B43D31200CF1DC4 = {
+			isa = PBXGroup;
+			children = (
+				25DFC29E1B44EBC1005B695F /* DVTFoundation.framework */,
+				25DFC29F1B44EBC1005B695F /* DVTKit.framework */,
+				25DFC2A01B44EBC1005B695F /* IDEFoundation.framework */,
+				25DFC2A11B44EBC1005B695F /* IDEKit.framework */,
+				25DFC29D1B44EB91005B695F /* frameWork */,
+				2510D0BC1B43D31200CF1DC4 /* QHRDebug */,
+				2510D0BB1B43D31200CF1DC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2510D0BB1B43D31200CF1DC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2510D0BA1B43D31200CF1DC4 /* QHRDebug.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2510D0BC1B43D31200CF1DC4 /* QHRDebug */ = {
+			isa = PBXGroup;
+			children = (
+				2501FE051B4BBDE2002BC467 /* KeyboardHelper */,
+				2501FDE81B4BBB9E002BC467 /* Category */,
+				25F8B1901B44E5780056776F /* Xcode */,
+				2510D0BD1B43D31200CF1DC4 /* Supporting Files */,
+				2510D0C41B43D6B600CF1DC4 /* QHRDebug.h */,
+				2510D0C51B43D6B600CF1DC4 /* QHRDebug.m */,
+				2593AF151B4502C40054D5DF /* NSTextView+menu.h */,
+				2593AF161B4502C40054D5DF /* NSTextView+menu.m */,
+				257344381B4680EE00C3ADEF /* HRDebugListController.h */,
+				257344391B4680EE00C3ADEF /* HRDebugListController.m */,
+				257344461B468E8300C3ADEF /* HRDebugListController.xib */,
+				2573443B1B46817100C3ADEF /* HRDeBugCellView.h */,
+				2573443C1B46817100C3ADEF /* HRDeBugCellView.m */,
+				2573443E1B46834800C3ADEF /* HRDebugModel.h */,
+				2573443F1B46834800C3ADEF /* HRDebugModel.m */,
+				257344411B46837600C3ADEF /* HRDebugItem.h */,
+				257344421B46837600C3ADEF /* HRDebugItem.m */,
+			);
+			path = QHRDebug;
+			sourceTree = "<group>";
+		};
+		2510D0BD1B43D31200CF1DC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				257344441B4687FE00C3ADEF /* find.sh */,
+				2510D0BE1B43D31200CF1DC4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25DFC29D1B44EB91005B695F /* frameWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = frameWork;
+			sourceTree = "<group>";
+		};
+		25F8B1901B44E5780056776F /* Xcode */ = {
+			isa = PBXGroup;
+			children = (
+				25F8B1911B44E5780056776F /* SharedXcode.h */,
+				25F8B1921B44E5780056776F /* SharedXcode.m */,
+				25F8B1931B44E5780056776F /* xprivates.h */,
+			);
+			path = Xcode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2510D0B91B43D31200CF1DC4 /* QHRDebug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2510D0C11B43D31200CF1DC4 /* Build configuration list for PBXNativeTarget "QHRDebug" */;
+			buildPhases = (
+				2510D0B61B43D31200CF1DC4 /* Sources */,
+				2510D0B71B43D31200CF1DC4 /* Frameworks */,
+				2510D0B81B43D31200CF1DC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QHRDebug;
+			productName = QHRDebug;
+			productReference = 2510D0BA1B43D31200CF1DC4 /* QHRDebug.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2510D0B21B43D31200CF1DC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = hongrisong;
+				TargetAttributes = {
+					2510D0B91B43D31200CF1DC4 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 2510D0B51B43D31200CF1DC4 /* Build configuration list for PBXProject "QHRDebug" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2510D0B11B43D31200CF1DC4;
+			productRefGroup = 2510D0BB1B43D31200CF1DC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2510D0B91B43D31200CF1DC4 /* QHRDebug */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2510D0B81B43D31200CF1DC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257344471B468E8300C3ADEF /* HRDebugListController.xib in Resources */,
+				257344451B4687FE00C3ADEF /* find.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2510D0B61B43D31200CF1DC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2501FE081B4BBDE2002BC467 /* VVKeyboardEventSender.m in Sources */,
+				25F8B1941B44E5780056776F /* SharedXcode.m in Sources */,
+				257344431B46837600C3ADEF /* HRDebugItem.m in Sources */,
+				2510D0C61B43D6B600CF1DC4 /* QHRDebug.m in Sources */,
+				2573443D1B46817100C3ADEF /* HRDeBugCellView.m in Sources */,
+				2501FDEE1B4BBB9E002BC467 /* NSTextView+Addition.m in Sources */,
+				2593AF171B4502C40054D5DF /* NSTextView+menu.m in Sources */,
+				2501FDED1B4BBB9E002BC467 /* NSString+Addition.m in Sources */,
+				2573443A1B4680EE00C3ADEF /* HRDebugListController.m in Sources */,
+				257344401B46834800C3ADEF /* HRDebugModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2510D0BF1B43D31200CF1DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2510D0C01B43D31200CF1DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2510D0C21B43D31200CF1DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "${HOME}";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/qitmac000090/Desktop/pluginframeWork,
+				);
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = QHRDebug/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		2510D0C31B43D31200CF1DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "${HOME}";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/qitmac000090/Desktop/pluginframeWork,
+				);
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = QHRDebug/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2510D0B51B43D31200CF1DC4 /* Build configuration list for PBXProject "QHRDebug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2510D0BF1B43D31200CF1DC4 /* Debug */,
+				2510D0C01B43D31200CF1DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2510D0C11B43D31200CF1DC4 /* Build configuration list for PBXNativeTarget "QHRDebug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2510D0C21B43D31200CF1DC4 /* Debug */,
+				2510D0C31B43D31200CF1DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2510D0B21B43D31200CF1DC4 /* Project object */;
+}
