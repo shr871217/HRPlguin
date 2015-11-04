@@ -12,3 +12,12 @@
    pa :  @property (nonatomic, assign) <type> <name> 
    
    
+###如何使用（how）
+
+1. 将编译生成的**QHRDebug.xcplugin** 拷贝到~/Library/Application Support/Developer/Shared/Xcode/Plug-ins 目录下，重启
+
+2. 正常重启xcode 就生效了，在xcode 的view 目录下能看见插件的两个功能和对应的快捷方式
+
+3. 如果xcode 没有生效，重启的时候用如下命令 `*tail -f /var/log/system.log* ` 打印出xcode 日志，正常是因为xcode 升级了，但是QHRDebug.xcplugin 没有支持到这个版本，那么如何适配呢，a 先找出当前xcode 的uuid ，用命令 `defaults read /Applications/Xcode.app/Contents/Info.plist DVTPlugInCompatibilityUUID` ，然后将输出的日志添加到插件的工程文件plist DVTPlugInCompatibilityUUIDs 字段中，重新回到第一步，重新编译
+
+
